@@ -32,7 +32,7 @@ Original timing for 2018:
 
 Refactored timing for 2018:
 
-<img src=/Resources/VBA_Challenge_2017.png></img>
+<img src=/Resources/VBA_Challenge_2018.png></img>
 
 
 
