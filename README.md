@@ -16,3 +16,16 @@ Here are the results for 2018:
 
 <img src=/Resources/Refactored_Output_2018.png></img>
 
+The timings for the refactored code were about 7 times faster than the original code.
+
+Original timing for 2017:
+
+<img src=/Resources/Unrefactored_Timing_2017.png></img>
+
+Refactored timing for 2017:
+
+<img src=/Resources/VBA_Challenge_2017.png></img>
+
+
+
+
