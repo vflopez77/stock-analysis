@@ -26,6 +26,15 @@ Refactored timing for 2017:
 
 <img src=/Resources/VBA_Challenge_2017.png></img>
 
+Original timing for 2018:
+
+<img src=/Resources/Unrefactored_Timing_2018.png></img>
+
+Refactored timing for 2018:
+
+<img src=/Resources/VBA_Challenge_2017.png></img>
+
+
 
 
 
