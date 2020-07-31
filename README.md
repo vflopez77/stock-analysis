@@ -12,3 +12,7 @@ Here are the results for 2017:
 
 <img src=/Resources/Refactored_Output_2017.png></img>
 
+Here are the results for 2018:
+
+<img src=/Resources/Refactored_Output_2018.png></img>
+
