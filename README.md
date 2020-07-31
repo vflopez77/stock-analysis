@@ -1,4 +1,4 @@
 Module 2 Challenge Analysis
 
-# Study of Refactoring Stock Analysis Code
+# Refactoring Stock Analysis Code and Its Effect on Performance
 
