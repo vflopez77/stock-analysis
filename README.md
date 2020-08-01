@@ -11,7 +11,7 @@ The refactored code produced the same data results as the original code:
 <img src=/Resources/Refactored_Output_2017.png></img>
 <img src=/Resources/Refactored_Output_2018.png></img>
 
-However, the timings for the refactored code were about <b>7 times faster.</b>
+However, the refactored code performed about <b>7 times faster.</b>
 
 Original and Refactored Timings for 2017:
 
@@ -61,6 +61,10 @@ The refactored script loops only once through the dataset, storing the data for 
              tickerIndex = tickerIndex + 1
     ...           
     Next i
+
+By using the arrays tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices() to store the summary data while scanning the records only once, we have more efficiently used computer resources and significantly improved execution speed.
+
+### Summary
 
 
 
