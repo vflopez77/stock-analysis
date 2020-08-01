@@ -21,15 +21,15 @@ The timings for the refactored code were about 7 times faster than the original 
 Original and Refactored Timings for 2017:
 
 <p float="left">
-  <img src=/Resources/Unrefactored_Timing_2017.png width="400"></img>
-  <img src=/Resources/VBA_Challenge_2017.png width="400"></img>
+  <img src=/Resources/Unrefactored_Timing_2017.png width="350"></img>
+  <img src=/Resources/VBA_Challenge_2017.png width="350"></img>
 </p>
 
 Original and Refactored Timings for 2018:
 
 <p float="left">
-    <img src=/Resources/Unrefactored_Timing_2018.png width="400"></img>
-    <img src=/Resources/VBA_Challenge_2018.png width="400"></img>
+    <img src=/Resources/Unrefactored_Timing_2018.png width="350"></img>
+    <img src=/Resources/VBA_Challenge_2018.png width="350"></img>
 </p>
 
 
