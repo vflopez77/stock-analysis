@@ -25,8 +25,7 @@ Original and Refactored Timings for 2018:
 <img src=/Resources/Unrefactored_Timing_2018.png></img>
 <img src=/Resources/VBA_Challenge_2018.png></img>
 
-Let's take a look at how this performance improvement was achieved.
-
+### Analysis of Code Refactoring
 The original script looped through all the data rows 12 times - once for every ticker.
 
 The code looked like this:
