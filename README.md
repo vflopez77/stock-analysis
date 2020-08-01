@@ -28,7 +28,7 @@ The original script looped through all the data rows 12 times - once for every t
 
 The code looked like this:
 
-    <b>For i = 0 To 11</b>
+    For i = 0 To 11
     
         ticker = tickers(i)
         totalVolume = 0
@@ -65,7 +65,8 @@ The refactored script loops only once through the dataset, storing the data for 
 By using the arrays tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices() to store the summary data and scanning the records only once, we have more efficiently used computer resources and significantly improved execution speed.
 
 ### Summary
-It is important in programming to write the most efficent code possible in order to most effectively use the available computing resources of CPU, memory, and I/O.  Sometimes it is necessary, because of time constraints or the need to prove that a solution is possible, to use "brute force", inefficient programming methods.  However, we should always strive to ultimately have the most compact and elegant code by refactoring the code, testing each change along the way.  Besides the performance gains, there are other important advantages to rewriting code to make it as good as possible.  One is readibility, so that the code can be more easily maintianed by others.  Another is reusing pieces of code without rewriting it in multiple places, which avoids typing mistakes and having to make changes in multiple places.
+#### The Advantages of Refactoring in General
+It is important in programming to write the most efficent code possible in order to most effectively use the available computing resources of CPU, memory, and I/O.  Sometimes it is necessary, because of time constraints or the need to prove that a solution is possible, to use "brute force", inefficient programming methods.  However, we should always strive to ultimately have the most compact and elegant code by refactoring the code, testing each change along the way.  Besides the performance gains, there are other important advantages to rewriting code to make it as good as possible.  One is readibility, so that the code can be more easily maintianed by others.  Another is reusing pieces of code without rewriting it in multiple places, which avoids typing mistakes and having to make changes in multiple places.  On the other hand, refactoring that already works is time-consuming and costly, and code that is too compact (and not commented enough) may be difficult for others the understand.  Overall, refactoring is worth the effort because it makes best use of computer resources, and leaves a useful code base for further development.
 
 
 
