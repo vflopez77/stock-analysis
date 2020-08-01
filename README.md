@@ -54,6 +54,8 @@ The code looked like this:
 
 The refactored script loops only once through the dataset, storing the data for each ticker in arrays:
 
+    tickerIndex = 0
+    ...
     For i = 2 To RowCount
 
         '3a) Increase volume for current ticker
