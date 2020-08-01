@@ -62,9 +62,10 @@ The refactored script loops only once through the dataset, storing the data for 
     ...           
     Next i
 
-By using the arrays tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices() to store the summary data while scanning the records only once, we have more efficiently used computer resources and significantly improved execution speed.
+By using the arrays tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices() to store the summary data and scanning the records only once, we have more efficiently used computer resources and significantly improved execution speed.
 
 ### Summary
+
 
 
 
