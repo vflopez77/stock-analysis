@@ -11,7 +11,7 @@ The refactored code produced the same data results as the original code:
 <img src=/Resources/Refactored_Output_2017.png></img>
 <img src=/Resources/Refactored_Output_2018.png></img>
 
-However, the timings for the refactored code were about <b>7</b> times faster.
+However, the timings for the refactored code were about <b>7 times faster.</b>
 
 Original and Refactored Timings for 2017:
 
@@ -49,7 +49,7 @@ The code looked like this:
     ...
     Next i
 
-The refactored script loops only once through the dataset, storing the data for each ticker in arrays:
+The refactored script loops only once through the dataset, storing the data for each ticker in arrays by using the tickerIndex variable:
 
     tickerIndex = 0
     ...
