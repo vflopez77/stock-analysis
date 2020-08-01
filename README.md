@@ -8,12 +8,9 @@ The Stock Analysis code used a number of loops to produce the desired results.  
 ### Results
 The refactored code produced the same results as the original code. 
 
-Here are the results for 2017:
+Here is the output:
 
 <img src=/Resources/Refactored_Output_2017.png></img>
-
-Here are the results for 2018:
-
 <img src=/Resources/Refactored_Output_2018.png></img>
 
 The timings for the refactored code were about 7 times faster than the original code.
