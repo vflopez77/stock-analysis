@@ -25,10 +25,8 @@ Original and Refactored Timings for 2017:
 
 Original and Refactored Timings for 2018:
 
-<p float="left">
-    <img src=/Resources/Unrefactored_Timing_2018.png width="350"></img>
-    <img src=/Resources/VBA_Challenge_2018.png width="350"></img>
-</p>
+<img src=/Resources/Unrefactored_Timing_2018.png></img>
+<img src=/Resources/VBA_Challenge_2018.png></img>
 
 
 
