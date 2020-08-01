@@ -11,7 +11,7 @@ The refactored code produced the same data results as the original code:
 <img src=/Resources/Refactored_Output_2017.png></img>
 <img src=/Resources/Refactored_Output_2018.png></img>
 
-However, the timings for the refactored code were about 7 times faster than the original code.
+However, the timings for the refactored code were about <b>7</b> times faster.
 
 Original and Refactored Timings for 2017:
 
