@@ -25,9 +25,43 @@ Original and Refactored Timings for 2018:
 <img src=/Resources/Unrefactored_Timing_2018.png></img>
 <img src=/Resources/VBA_Challenge_2018.png></img>
 
+Let's take a look at how this performance improvement was achieved.
 
+The original script looped through all the data rows 12 times - once for every ticker.
 
+The code looked like this:
 
+    For i = 0 To 11
+    
+        ticker = tickers(i)
+        totalVolume = 0
+        
+    'Loop through rows in the data.
+        Worksheets(yearValue).Activate
+            
+        For j = 2 To RowCount
+            
+    'Find the total volume for the current ticker.
+            If Cells(j, 1).Value = ticker Then
+                
+                totalVolume = totalVolume + Cells(j, 8).Value
+                
+            End If
+    ...
+        Next j
+    ...
+    Next i
+
+The refactored script loops only once through the dataset, storing the data for each ticker in arrays:
+
+    For i = 2 To RowCount
+
+        '3a) Increase volume for current ticker
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8)
+    ...  
+             tickerIndex = tickerIndex + 1
+    ...           
+    Next i
 
 
 
